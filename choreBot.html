@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href=".\resources\CodeCadCss\choreBot.css">
+  <title>Chore-Bot</title>
+</head>
+
+<body>
+  <div class="header">
+    <img src="https://content.codecademy.com/projects/chore-door/images/logo.svg" alt="Title">
+  </div>
+  <div class="title-row">
+    <img src="https://content.codecademy.com/projects/chore-door/images/star.svg" alt="Stars">
+    <p class="instructions-title">Instructions</p>
+    <img src="https://content.codecademy.com/projects/chore-door/images/star.svg" alt="Stars">
+  </div>
+  <table class="instructions-row">
+    <tr>
+      <td class="instructions-number">1</td>
+      <td class="instructions-text">Hiding behind one of these doors is the ChoreBot.</td>
+    </tr>
+    <tr>
+      <td class="instructions-number">2</td>
+      <td class="instructions-text">Your mission is to open all of the doors without running out into the ChoreBot.</td>
+    </tr>
+    <tr>
+      <td class="instructions-number">3</td>
+      <td class="instructions-text">If you manage to avoid the ChoreBot until you open the very last door, you win!</td>
+    </tr>
+    <tr>
+      <td class="instructions-number">4</td>
+      <td class="instructions-text">See if you can score a winning streak!</td>
+    </tr>
+  </table>
+  <div class="door-row">
+    <img id="door1" class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" alt="Door">
+    <img id="door2" class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" alt="Door">
+    <img id="door3" class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" alt="Door">
+  </div>
+  <div id="start" class="start-row">
+    Good luck!
+  </div>
+  <div class="score">
+    <table id="scoreTable">
+      <tr>
+        <td>Score</td>
+        <td>Streak</td>
+      </tr>
+      <tr>
+        <td id="currentScore" class="board">0</td>
+        <td id="streak" class="board">0</td>
+      </tr>
+    </table>
+  </div>
+</body>
+<script type="text/javascript" src=".\resources\CodeCadES6\choreBot.js"></script>
+
+</html>
